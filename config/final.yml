@@ -1,1 +1,5 @@
-name: jmeter-service-adapter
+final_name: jmeter-service-adapter
+blobstore:
+  provider: s3
+  options:
+    bucket_name: jmeter-service-adapter-release-blobs
